@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Neoteric;
+    src: url(../font/Neoteric-32A8.ttf);
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 40px;
+    gap: 20px;
+    /* background-image: linear-gradient(#f4ecf2, #f4f4ec); */
+    font-family: Neoteric;
+}
+
+.title {
+    font-size: 6vw;
+    /* font-size: 80px; */
+    /* font-family: 'Raleway', sans-serif; */
+    /* color: #120f0d; */
+    color: blue;
+    /* border: 2px solid red; */
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.menuSection {
+    display: flex;
+    gap: 100px;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    padding: 30px;
+    align-items: center;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.05s ease-in-out;
+}
+
+a:hover {
+    /* font-size: 30px; */
+    font-weight: bolder;
+    text-decoration: solid underline;
+}
