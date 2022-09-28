@@ -14,8 +14,8 @@
 }
 
 .title {
-    font-size: 6vw;
-    /* font-size: 80px; */
+    /* font-size: 6vw; */
+    font-size: 70px;
     /* font-family: 'Raleway', sans-serif; */
     /* color: #120f0d; */
     color: blue;
@@ -36,6 +36,7 @@
     /* border: 2px solid red; */
     padding: 30px;
     align-items: center;
+    border-bottom: 3px solid blue;
 }
 
 a {
