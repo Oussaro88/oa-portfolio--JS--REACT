@@ -22,20 +22,9 @@ class Introduction extends Component {
 
                 <h2>Skills</h2>
                 <div className="skills">
-                    <h3>Programming skills</h3>
+                    {/* <h3>Programming skills</h3> */}
                     <div className="grid-skills">
-                        <div className="skillPresentation">
-                            <img className='img-skills' src="./C-Sharp.png" alt="C#" />
-                            <span>C#</span>
-                        </div>
-                        <div className="skillPresentation">
-                            <img className='img-skills' src="./cpp.png" alt="C++" />
-                            <span>C++</span>
-                        </div>
-                        <div className="skillPresentation">
-                            <img className='img-skills' src="./unity.png" alt="UNITY" />
-                            <span>UNITY</span>
-                        </div>
+
                         <div className="skillPresentation">
                             <img className='img-skills' src="./html-5.png" alt="HTML5" />
                             <span>HTML</span>
@@ -53,8 +42,24 @@ class Introduction extends Component {
                             <span>REACT</span>
                         </div>
                         <div className="skillPresentation">
+                            <img className='img-skills' src="./php.png" alt="PHP" />
+                            <span>PHP</span>
+                        </div>
+                        <div className="skillPresentation">
                             <img className='img-skills' src="./mysql.png" alt="MYSQL" />
                             <span>MYSQL</span>
+                        </div>
+                        <div className="skillPresentation">
+                            <img className='img-skills' src="./C-Sharp.png" alt="C#" />
+                            <span>C#</span>
+                        </div>
+                        {/* <div className="skillPresentation">
+                            <img className='img-skills' src="./cpp.png" alt="C++" />
+                            <span>C++</span>
+                        </div> */}
+                        <div className="skillPresentation">
+                            <img className='img-skills' src="./unity.png" alt="UNITY" />
+                            <span>UNITY</span>
                         </div>
                         <div className="skillPresentation">
                             <img className='img-skills' src="./github.png" alt="GITHUB" />
